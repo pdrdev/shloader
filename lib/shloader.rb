@@ -1,3 +1,5 @@
+require 'net/http'
+
 lib = File.dirname(__FILE__)
 
 Dir["#{lib}/shloader/*.rb"].each {|file| require file }
