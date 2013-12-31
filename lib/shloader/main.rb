@@ -6,20 +6,19 @@ class Main
   end
 
   def run
-    puts 'Shloader started'
+    Logger.log 'Shloader started'
 
     begin
       config = ShloaderConfig.new
       myshows = Myshows.new(config)
       myshows.login
-      puts myshows.unwatched_episodes
     rescue Exception => e
-      puts 'Shloader crashed!'
+      Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message
       puts e.backtrace.inspect
     end
 
-    puts 'Shloader stopped'
+    Logger.log 'Shloader stopped'
   end
 
 end
