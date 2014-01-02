@@ -11,7 +11,7 @@ class Main
     begin
       config = ShloaderConfig.new
       myshows = Myshows.new(config)
-      myshows.login
+      puts myshows.unwatched_episodes
     rescue Exception => e
       Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message

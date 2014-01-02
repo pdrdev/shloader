@@ -3,9 +3,10 @@ class Myshows
   def initialize(config)
     @login = config.myshows_login
     @password = config.myshows_password
+    login!
   end
 
-  def login
+  def login!
     uri = URI.parse("http://api.myshows.ru/profile/login?login=#{@login}&password=#{@password}")
     response = Net::HTTP.get_response(uri)
     header = response.header

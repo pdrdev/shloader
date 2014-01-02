@@ -19,4 +19,5 @@ doc/
 
 .idea
 config
+Gemfile.lock
 
