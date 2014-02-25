@@ -1,7 +1,6 @@
 require 'rspec'
 
-lib = File.dirname(__FILE__) + '/../lib'
-puts 'lib: ' + lib
+lib = File.expand_path(File.dirname(__FILE__)) + '/../lib'
 Dir["#{lib}/shloader/*.rb"].each {|file| require file }
 
 describe MyshowsJsonParser do
