@@ -1,8 +1,10 @@
 class Myshows
 
-  def initialize(config)
+  def initialize(config, json_parser)
     @login = config.myshows_login
     @password = config.myshows_password
+    @show_infos = Hash.new
+    @json_parser = json_parser
     login!
   end
 
@@ -22,6 +24,20 @@ class Myshows
     request = Net::HTTP::Post.new("/profile/episodes/unwatched/")
     request.add_field('Cookie', "PHPSESSID=#{@phpSessionId}")
     response = http.request(request)
-    response.body
+    @json_parser.parse_episodes (response.body)
+  end
+
+  def show_info(show_id)
+    if @show_infos.key?(show_id)
+      return @show_infos[show_id]
+    end
+
+    uri = URI.parse("http://api.myshows.ru")
+    http = Net::HTTP.new(uri.host, uri.port)
+    request = Net::HTTP::Post.new("/shows/#{show_id}")
+    response = http.request(request)
+    show_info = @json_parser.parse_show_info (response.body)
+    @show_infos[show_id] = show_info
+    show_info 
   end
 end

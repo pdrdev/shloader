@@ -1,0 +1,378 @@
+{
+    "459886": {
+        "episodeId": 459886,
+        "title": "Bored to Death: Making Bored to Death",
+        "showId": 186,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "01.09.2009"
+    },
+    "460009": {
+        "episodeId": 460009,
+        "title": "Pilot: Director's Cut",
+        "showId": 249,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "02.09.2009"
+    },
+    "460045": {
+        "episodeId": 460045,
+        "title": "The Journey",
+        "showId": 8,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "27.04.2005"
+    },
+    "460046": {
+        "episodeId": 460046,
+        "title": "Destination Lost",
+        "showId": 8,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "21.09.2005"
+    },
+    "460047": {
+        "episodeId": 460047,
+        "title": "Revelation",
+        "showId": 8,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "11.01.2006"
+    },
+    "460048": {
+        "episodeId": 460048,
+        "title": "Reckoning",
+        "showId": 8,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "26.04.2006"
+    },
+    "460049": {
+        "episodeId": 460049,
+        "title": "A Tale of Survival",
+        "showId": 8,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "27.09.2006"
+    },
+    "460050": {
+        "episodeId": 460050,
+        "title": "Lost Survivor Guide",
+        "showId": 8,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "07.02.2007"
+    },
+    "460051": {
+        "episodeId": 460051,
+        "title": "The Answers",
+        "showId": 8,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "17.05.2007"
+    },
+    "460052": {
+        "episodeId": 460052,
+        "title": "Past, Present & Future",
+        "showId": 8,
+        "seasonNumber": 4,
+        "episodeNumber": 0,
+        "airDate": "31.01.2008"
+    },
+    "460053": {
+        "episodeId": 460053,
+        "title": "Destiny Calls",
+        "showId": 8,
+        "seasonNumber": 5,
+        "episodeNumber": 0,
+        "airDate": "21.01.2009"
+    },
+    "460054": {
+        "episodeId": 460054,
+        "title": "The Story of the Oceanic 6",
+        "showId": 8,
+        "seasonNumber": 5,
+        "episodeNumber": 0,
+        "airDate": "22.04.2009"
+    },
+    "460055": {
+        "episodeId": 460055,
+        "title": "A Journey in Time",
+        "showId": 8,
+        "seasonNumber": 5,
+        "episodeNumber": 0,
+        "airDate": "13.05.2009"
+    },
+    "460191": {
+        "episodeId": 460191,
+        "title": "Billie And The Real Belle Bare All",
+        "showId": 12,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "25.01.2010"
+    },
+    "460206": {
+        "episodeId": 460206,
+        "title": "Chef Aid: Behind the Menu",
+        "showId": 34,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "07.10.1998"
+    },
+    "460207": {
+        "episodeId": 460207,
+        "title": "Dead Friend Sketch",
+        "showId": 34,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "09.10.1999"
+    },
+    "460208": {
+        "episodeId": 460208,
+        "title": "Goin' Down To South Park",
+        "showId": 34,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "03.05.1999"
+    },
+    "460209": {
+        "episodeId": 460209,
+        "title": "Great Destinations (a.k.a. The Most Notorious Episode)",
+        "showId": 34,
+        "seasonNumber": 6,
+        "episodeNumber": 0,
+        "airDate": "19.06.2002"
+    },
+    "460210": {
+        "episodeId": 460210,
+        "title": "South Park 5th Anniversary Special",
+        "showId": 34,
+        "seasonNumber": 6,
+        "episodeNumber": 0,
+        "airDate": "03.09.2002"
+    },
+    "460283": {
+        "episodeId": 460283,
+        "title": "The Simpsons 20th Anniversary Special - In 3-D! On Ice!",
+        "showId": 50,
+        "seasonNumber": 21,
+        "episodeNumber": 0,
+        "airDate": "10.01.2010"
+    },
+    "460545": {
+        "episodeId": 460545,
+        "title": "Friends: The Stuff You've Never Seen",
+        "showId": 20,
+        "seasonNumber": 7,
+        "episodeNumber": 0,
+        "airDate": "15.02.2001"
+    },
+    "460546": {
+        "episodeId": 460546,
+        "title": "The One With All the Other Ones (1)",
+        "showId": 20,
+        "seasonNumber": 10,
+        "episodeNumber": 0,
+        "airDate": "06.05.2004"
+    },
+    "460547": {
+        "episodeId": 460547,
+        "title": "The One With All the Other Ones (2)",
+        "showId": 20,
+        "seasonNumber": 10,
+        "episodeNumber": 0,
+        "airDate": "06.05.2004"
+    },
+    "460717": {
+        "episodeId": 460717,
+        "title": "Behind the Walls",
+        "showId": 14,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "11.10.2005"
+    },
+    "460718": {
+        "episodeId": 460718,
+        "title": "The Road To Freedom",
+        "showId": 14,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "08.01.2007"
+    },
+    "460719": {
+        "episodeId": 460719,
+        "title": "Access All Areas",
+        "showId": 14,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "23.09.2007"
+    },
+    "460751": {
+        "episodeId": 460751,
+        "title": "Scrubs Funniest Moments",
+        "showId": 55,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "17.04.2003"
+    },
+    "581033": {
+        "episodeId": 581033,
+        "title": "The Final Break",
+        "showId": 14,
+        "seasonNumber": 4,
+        "episodeNumber": 0,
+        "airDate": "27.05.2009"
+    },
+    "618234": {
+        "episodeId": 618234,
+        "title": "The Final Journey",
+        "showId": 8,
+        "seasonNumber": 6,
+        "episodeNumber": 0,
+        "airDate": "23.05.2010"
+    },
+    "815986": {
+        "episodeId": 815986,
+        "title": "Inside Game of Thrones",
+        "showId": 11945,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "05.12.2010"
+    },
+    "1032406": {
+        "episodeId": 1032406,
+        "title": "15-Minute Preview",
+        "showId": 11945,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "03.04.2011"
+    },
+    "1254750": {
+        "episodeId": 1254750,
+        "title": "Six Days to Air: The Making of \"South Park\"",
+        "showId": 34,
+        "seasonNumber": 15,
+        "episodeNumber": 0,
+        "airDate": "09.10.2011"
+    },
+    "1335984": {
+        "episodeId": 1335984,
+        "title": "It's a Don-Derful Life",
+        "showId": 333,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "22.12.2011"
+    },
+    "1341413": {
+        "episodeId": 1341413,
+        "title": "Erazer",
+        "showId": 304,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "04.12.2011"
+    },
+    "1430795": {
+        "episodeId": 1430795,
+        "title": "You Win or You Die",
+        "showId": 11945,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "25.03.2012"
+    },
+    "1480547": {
+        "episodeId": 1480547,
+        "title": "Black Dolls",
+        "showId": 236,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "05.11.2000"
+    },
+    "1480548": {
+        "episodeId": 1480548,
+        "title": "Bernard's Letter",
+        "showId": 236,
+        "seasonNumber": 2,
+        "episodeNumber": 0,
+        "airDate": "14.04.2002"
+    },
+    "1634115": {
+        "episodeId": 1634115,
+        "title": "Stand Up To Cancer",
+        "showId": 50,
+        "seasonNumber": 24,
+        "episodeNumber": 0,
+        "airDate": "19.10.2012"
+    },
+    "1721573": {
+        "episodeId": 1721573,
+        "title": "Bringing Shameless to America",
+        "showId": 9118,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "27.12.2011"
+    },
+    "1721574": {
+        "episodeId": 1721574,
+        "title": "Bringing the Fun to Dysfunctional",
+        "showId": 9118,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "27.12.2011"
+    },
+    "1721575": {
+        "episodeId": 1721575,
+        "title": "A Shameless Discussion About Sex",
+        "showId": 9118,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "27.12.2011"
+    },
+    "1751238": {
+        "episodeId": 1751238,
+        "title": "A Gathering Storm",
+        "showId": 11945,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "08.03.2013"
+    },
+    "1795302": {
+        "episodeId": 1795302,
+        "title": "Retrospective",
+        "showId": 38,
+        "seasonNumber": 9,
+        "episodeNumber": 0,
+        "airDate": "16.05.2013"
+    },
+    "1918730": {
+        "episodeId": 1918730,
+        "title": "South Park: Pandemic 1 & 2",
+        "showId": 34,
+        "seasonNumber": 17,
+        "episodeNumber": 0,
+        "airDate": "22.09.2013"
+    },
+    "1963482": {
+        "episodeId": 1963482,
+        "title": "Jay Leno Comes to South Park",
+        "showId": 34,
+        "seasonNumber": 1,
+        "episodeNumber": 0,
+        "airDate": "20.11.1997"
+    },
+    "1985644": {
+        "episodeId": 1985644,
+        "title": "Many Happy Returns",
+        "showId": 7718,
+        "seasonNumber": 3,
+        "episodeNumber": 0,
+        "airDate": "24.12.2013"
+    },
+    "2057525": {
+        "episodeId": 2057525,
+        "title": "Ice and Fire: A Foreshadowing",
+        "showId": 11945,
+        "seasonNumber": 4,
+        "episodeNumber": 0,
+        "airDate": "09.02.2014"
+    }
+}

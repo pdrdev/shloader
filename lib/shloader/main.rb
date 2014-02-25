@@ -10,8 +10,10 @@ class Main
 
     begin
       config = ShloaderConfig.new
-      myshows = Myshows.new(config)
+      json_parser = MyshowsJsonParser.new
+      myshows = Myshows.new(config, json_parser)
       puts myshows.unwatched_episodes
+      puts myshows.show_info('186')
     rescue Exception => e
       Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message
