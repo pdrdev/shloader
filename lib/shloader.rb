@@ -1,5 +1,6 @@
 require 'net/http'
 require 'json'
+require 'cgi'
 
 lib = File.expand_path(File.dirname(__FILE__))
 

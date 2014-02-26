@@ -8,4 +8,9 @@ class Episode
   def initialize(show_id, season_number, episode_number)
     @show_id, @season_number, @episode_number = show_id, season_number, episode_number
   end
+
+  def to_s
+    # TODO fix it!
+    show_name + ' ' + 'S0' + season_number.to_s + 'E0' + episode_number.to_s
+  end
 end

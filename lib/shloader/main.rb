@@ -2,7 +2,8 @@ class Main
 
   def initialize
     @episode_source = DefaultEpisodeSource.new
-    @tracker = ThePirateBayTracker.new
+    @http_client = HttpClient.new
+    @tracker = ThePirateBayTracker.new(@http_client)
   end
 
   def run
@@ -12,8 +13,12 @@ class Main
       config = ShloaderConfig.new
       json_parser = MyshowsJsonParser.new
       myshows = Myshows.new(config, json_parser)
-      puts myshows.unwatched_episodes
-      puts myshows.show_info('186')
+      unwatched_episodes = myshows.unwatched_episodes
+
+      links = @tracker.get_links unwatched_episodes
+      links.each do |link|
+        puts link.url
+      end
     rescue Exception => e
       Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message

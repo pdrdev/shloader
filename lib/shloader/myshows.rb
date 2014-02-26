@@ -32,6 +32,7 @@ class Myshows
     episodes
   end
 
+  # TODO cache it!
   def show_info(show_id)
     if @show_infos.key?(show_id)
       return @show_infos[show_id]
