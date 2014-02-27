@@ -24,7 +24,7 @@ class Myshows
     request = Net::HTTP::Post.new("/profile/episodes/unwatched/")
     request.add_field('Cookie', "PHPSESSID=#{@phpSessionId}")
     response = http.request(request)
-    episodes = @json_parser.parse_episodes (response.body)
+    episodes = @json_parser.parse_episodes(response.body).select {|episode| episode.episode_number > 0}
 
     episodes.each do |episode|
       episode.show_name = show_info(episode.show_id).name
