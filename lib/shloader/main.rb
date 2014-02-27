@@ -4,6 +4,7 @@ class Main
     @episode_source = DefaultEpisodeSource.new
     @http_client = HttpClient.new
     @tracker = ThePirateBayTracker.new(@http_client)
+    @torrent_client = Transmission.new
   end
 
   def run
@@ -16,9 +17,7 @@ class Main
       unwatched_episodes = myshows.unwatched_episodes
 
       links = @tracker.get_links unwatched_episodes
-      links.each do |link|
-        puts link.url
-      end
+      @torrent_client.download_all links
     rescue Exception => e
       Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message
