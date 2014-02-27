@@ -3,6 +3,6 @@ class HttpClient
     Logger.log "Fetching url: #{url}"
     uri = URI.parse(url)
     response = Net::HTTP.get_response uri
-    response.to_s
+    response.body.to_s
   end
 end
