@@ -10,7 +10,8 @@ class Episode
   end
 
   def to_s
-    # TODO fix it!
-    show_name + ' ' + 'S0' + season_number.to_s + 'E0' + episode_number.to_s
+    season_number_str = if season_number < 10 then '0' + season_number.to_s else season_number.to_s end
+    episode_number_str = if episode_number < 10 then '0' + episode_number.to_s else episode_number.to_s end
+    "#{@show_name} S#{season_number_str}E#{episode_number_str}"
   end
 end
