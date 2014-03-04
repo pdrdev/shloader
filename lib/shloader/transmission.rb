@@ -17,8 +17,7 @@ class Transmission
         " --incomplete-dir #{base_directory}/incomplete" +
        " -w #{base_directory}/completed" +
         " --add " + link.url
-    Logger.log "Executing command: #{command}"
-    system command
+    Cmd.execute command
   end
 
   def processed? (processed, episode)
