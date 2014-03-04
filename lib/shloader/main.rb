@@ -4,20 +4,25 @@ class Main
     @episode_source = DefaultEpisodeSource.new
     @http_client = HttpClient.new
     @tracker = ThePirateBayTracker.new(@http_client)
-    @torrent_client = Transmission.new
   end
 
   def run
     Logger.log 'Shloader started'
 
     begin
-      config = ShloaderConfig.new
-      json_parser = MyshowsJsonParser.new
-      myshows = Myshows.new(config, json_parser)
-      unwatched_episodes = myshows.unwatched_episodes
+      options = Options.parse(ARGV)
 
-      links = @tracker.get_links unwatched_episodes
-      @torrent_client.download_all links
+      if options.should_run
+        config = ShloaderConfig.new
+        json_parser = MyshowsJsonParser.new
+        myshows = Myshows.new(config, json_parser)
+        @torrent_client = Transmission.new options
+        unwatched_episodes = myshows.unwatched_episodes
+
+        links = @tracker.get_links unwatched_episodes
+        @torrent_client.download_all links
+      end
+
     rescue Exception => e
       Logger.log('Shloader crashed!', Logger::ERROR)
       puts e.message

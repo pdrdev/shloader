@@ -1,4 +1,8 @@
 class Transmission
+  def initialize(options)
+    @options = options
+  end
+
   def download_all(links)
     processed = get_processed
     links.each do |link|
@@ -17,7 +21,7 @@ class Transmission
         " --incomplete-dir #{base_directory}/incomplete" +
        " -w #{base_directory}/completed" +
         " --add " + link.url
-    Cmd.execute command
+    Cmd.execute(command, @options.debug)
   end
 
   def processed? (processed, episode)
